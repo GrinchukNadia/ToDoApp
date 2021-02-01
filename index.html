@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo List Application</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="toDo__container">
+        <section class="toDo__addTask">
+            <input class="task_input" type="text" placeholder="wright your task..." name="description">
+            <button class="button_add"><span>ADD</span></button>
+        </section>
+
+        <section class="toDo__body">
+            <div class="body-title">
+                <div class="title">
+                    <h3>TO DO LIST</h3>
+                </div>
+                <div class="title">
+                    <h3>COMPLETED</h3>
+                </div>
+            </div>
+
+            <div class="body-container">
+
+                <ul class="list_container" id="list1">
+                    <!-- <li class="toDo__card ">
+                        <span class="checkbox "></span>
+                        <h4>Buy bread and milk.</h4>
+                        <button class="toDo-remove-btn"><img src="img/noun_cancel_1271710-01.png" alt=""></button>
+                    </li> -->
+                </ul>
+
+                <ul class="done_container" id="list2">
+                    <!-- <li class="toDo__card">
+                        <span class="checkbox active"></span>
+                        <h4>Buy bread and milk.</h4>
+                        <button class="toDo-remove-btn"><img src="img/noun_cancel_1271710-01.png" alt=""></button>
+                    </li> -->
+                </ul>
+
+            </div>
+        </section>
+        <footer class="motivation">
+            <h4>Knowing is not enough; We must apply. Willing is not enough; We mast do!</h4>
+        </footer>
+    </div>
+    
+</body>
+</html>
